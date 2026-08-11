@@ -1,4 +1,4 @@
-package com.HomeWorkOOP;
+package com.oop;
 
 abstract class MenuItem {
 

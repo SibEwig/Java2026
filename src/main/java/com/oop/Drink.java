@@ -1,4 +1,4 @@
-package com.HomeWorkOOP;
+package com.oop;
 
 class Drink extends MenuItem {
 
