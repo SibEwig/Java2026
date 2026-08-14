@@ -6,6 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class LifecycleTest {
 
@@ -38,5 +39,13 @@ public class LifecycleTest {
     public void secondTest() {
         System.out.println("Это второй тест");
         assertEquals(10, counter);
+    }
+
+    @Test
+    public void parsingInvalidValueShouldTrowsNumberFormatException() {
+        assertThrows(
+                NumberFormatException.class,
+                () -> Integer.parseInt("nan")
+        );
     }
 }
