@@ -13,8 +13,12 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.27.7'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.46'
     testCompileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.46'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.46'
     testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.46'
+    testImplementation group: 'tools.jackson.core', name: 'jackson-databind', version: '3.2.1'
+    testImplementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.22.1'
 }
 
 compileJava {
