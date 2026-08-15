@@ -19,6 +19,8 @@ dependencies {
     testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.46'
     testImplementation group: 'tools.jackson.core', name: 'jackson-databind', version: '3.2.1'
     testImplementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.22.1'
+    testImplementation group: 'org.aeonbits.owner', name: 'owner', version: '1.0.12'
+    testImplementation group: 'net.datafaker', name: 'datafaker', version: '2.7.0'
 }
 
 compileJava {
