@@ -22,6 +22,7 @@ dependencies {
     testImplementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.22.1'
     testImplementation group: 'org.aeonbits.owner', name: 'owner', version: '1.0.12'
     testImplementation group: 'net.datafaker', name: 'datafaker', version: '2.7.0'
+    testImplementation group: 'org.postgresql', name: 'postgresql', version: '42.7.13'
 }
 
 compileJava {
