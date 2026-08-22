@@ -23,6 +23,8 @@ dependencies {
     testImplementation group: 'org.aeonbits.owner', name: 'owner', version: '1.0.12'
     testImplementation group: 'net.datafaker', name: 'datafaker', version: '2.7.0'
     testImplementation group: 'org.postgresql', name: 'postgresql', version: '42.7.13'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '6.0.1'
+    testImplementation group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.35.4'
 }
 
 compileJava {
