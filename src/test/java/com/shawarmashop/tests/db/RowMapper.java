@@ -1,4 +1,4 @@
-package com.base.jdbc;
+package com.shawarmashop.tests.db;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

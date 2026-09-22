@@ -1,5 +1,6 @@
 package com.base.jdbc;
 
+import com.shawarmashop.tests.db.RowMapper;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 

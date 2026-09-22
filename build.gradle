@@ -29,6 +29,7 @@ dependencies {
     testImplementation group: 'org.apache.kafka', name: 'kafka-clients', version: '4.3.1'
     testImplementation group: 'com.codeborne', name: 'selenide', version: '7.18.0'
     testImplementation group: 'io.qameta.allure', name: 'allure-selenide', version: '2.35.4'
+    testImplementation group: 'com.zaxxer', name: 'HikariCP', version: '7.1.0'
 }
 
 compileJava {
