@@ -6,5 +6,6 @@ import lombok.Data;
 @Data
 @Builder
 public class PayRequest {
-    private String method;
+    @Builder.Default
+    private String method = "CARD";
 }

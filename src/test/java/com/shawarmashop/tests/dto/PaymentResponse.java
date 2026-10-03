@@ -15,6 +15,7 @@ public class PaymentResponse {
     private Integer amount;
     private String method;
     private String status;
+    private String txnId;
     private String failureReason;
     private Instant createdAt;
 }
