@@ -7,7 +7,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import lombok.SneakyThrows;
 
 public class Json {
-    private static final ObjectMapper MAPPER = new ObjectMapper().registerModule(new JavaTimeModule());
+    public static final ObjectMapper MAPPER = new ObjectMapper().registerModule(new JavaTimeModule());
 
     @SneakyThrows
     public static String toJson(Object object) {
