@@ -72,7 +72,6 @@ public class PaymentsStubs extends WiremockStubBase {
                 .map(x -> x.get("body"))
                 .filter(Objects::nonNull)
                 .map(x -> Json.fromJson(x.toString(), ChargeRequestDto.class))
-                .toList()
-        ;
+                .toList();
     }
 }
