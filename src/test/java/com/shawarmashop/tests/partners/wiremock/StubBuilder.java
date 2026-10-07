@@ -31,6 +31,11 @@ public class StubBuilder {
         return new StubBuilder("POST", url);
     }
 
+    public StubBuilder withPriority(int priority) {
+        mappings.put("priority", priority);
+        return this;
+    }
+
     public StubBuilder withJsonPath(String jsonPath, String expectedValue) {
         bodyPatterns.add(Map.of(
                         "matchesJsonPath", Map.of(

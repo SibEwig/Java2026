@@ -31,4 +31,10 @@ public interface TestEnvironment extends Config {
 
     @Key("db.password")
     String jdbcPassword();
+
+    @Key("wiremock.rest.base-url")
+    String wiremockRestBaseUrl();
+
+    @Key("wiremock.grpc.base-url")
+    String wiremockGrpcBaseUrl();
 }

@@ -30,6 +30,8 @@ dependencies {
     testImplementation group: 'com.codeborne', name: 'selenide', version: '7.18.0'
     testImplementation group: 'io.qameta.allure', name: 'allure-selenide', version: '2.35.4'
     testImplementation group: 'com.zaxxer', name: 'HikariCP', version: '7.1.0'
+    testImplementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.2")
+    testRuntimeOnly("org.glassfish.jaxb:jaxb-runtime:4.0.5")
 }
 
 compileJava {
